@@ -1,12 +1,11 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import Main from './components/Main';
+import CardProject from './components/Card-Project';
 
 function App() {
   return (
     <div className='container'>
-      <NavBar/>
-      <Main/>
+      
+      <CardProject/>
     </div>
     
   );
